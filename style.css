@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pink {
+  color: #ed1e79;
+}
+
+.header {
+  background: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.hero {
+  height: 400px;
+  background: #444;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero {
+  height: 500px;
+  background-image:url(images/main.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 68px;
+}
+
+.section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.pink-bg {
+  background: #ed1e79;
+  color: white;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 60px auto 0;
+}
+
+.box {
+  background: rgba(255,255,255,0.3);
+  padding: 60px 0;  
+}
+.view-btn{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 26px;
+  border: 2px solid rgba(255,255,255,0.85);
+  border-radius: 999px;
+  color: #fff;
+}
+.services {
+  list-style: none;
+  padding: 0;
+}
+.services-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 300;
+} 
+
+.services li {
+  margin: 8px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+}
+
+.footer{
+  background:#ed1e79;
+  padding: 25px 0;
+  text-align:center;
+}
+.footer-text{
+  margin:0;
+  color:#fff;
+  font-size: 8px;
+  letter-spacing: 2px;
+  opacity: .9;
+}
+.view-btn{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 26px;
+  border: 2px solid rgba(255,255,255,0.85);
+  border-radius: 999px;
+  color: #fff;
+}
